@@ -25,9 +25,11 @@ To run the code, follow these steps:
 
 1. Open the project folder in the IDE of your choice.
 
-2. Run `testmed.js` to generate a database of medicines, allergens, and side effects.
+2. Extract the node modules (7zip file) or download modules according to package.json
 
-3. Start the server by running `app.js` using the following command:
+3. Run `testmed.js` to generate a database of medicines, allergens, and side effects.
+
+4. Start the server by running `app.js` using the following command:
 
    ```bash
    node app.js
@@ -35,7 +37,7 @@ To run the code, follow these steps:
 
    This will open the server at [http://localhost:3000](http://localhost:3000).
 
-4. Modify the database connection settings in both `app.js` and `testmed.js` to match your database. By default, we are using MongoDB and connecting to `localhost:27017` or `0.0.0.0:27017`.
+5. Modify the database connection settings in both `app.js` and `testmed.js` to match your database. By default, we are using MongoDB and connecting to `localhost:27017` or `0.0.0.0:27017`.
 
 ```javascript
 // Example MongoDB connection settings
